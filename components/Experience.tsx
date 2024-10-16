@@ -2,6 +2,7 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import { GiSevenPointedStar } from "react-icons/gi";
 import Link from "next/link";
 
 const Experience = () => {
@@ -40,13 +41,29 @@ const Experience = () => {
                                 <h1 className="text-start text-xl md:text-2xl font-bold">
                                     {card.title}
                                 </h1>
-                                <h2 className="text-start text-base md:text-xl font-extralight">{card.company}</h2>
-                                <p className="text-start text-white-100 mt-3 font-semibold">
+                                <Link href={card.link}>  <h2 className="text-start text-base md:text-xl font-thin">{card.company}</h2></Link>
+
+                                <h2 className="text-start text-white-100 mt-1 font-normal">
                                     {card.date}
+                                </h2>
+
+                                <p className="text-start text-white-100 mt-6 font-semibold italic">
+                                    <span className="inline-flex items-center">
+                                        <GiSevenPointedStar className="mr-2" /> {/* Add margin to the right of the icon */}
+                                        Key Responsibilities:
+                                    </span>
                                 </p>
-                                <p className="text-start text-white-100 mt-3 font-semibold">
-                                    {card.desc}
-                                </p>
+
+                                <div className="text-start text-white-100 mt-1 font-normal">
+                                    {card.desc.map((point, index) => (
+                                        <div key={index} className="flex items-start">
+                                            <span className="mr-2 text-white">•</span> {/* Custom bullet */}
+                                            <span>{point}</span>
+                                        </div>
+                                    ))}
+                                </div>
+
+
                             </div>
                         </div>
                     </Button>

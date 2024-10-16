@@ -168,8 +168,18 @@ export const navItems = [
       id: 1,
       title: "Trainee Programmer",
       company: "Synesis IT Ltd",
+      link:"https://synesisit.com.bd/",
       date: "Jan 2024 - Present",
-      desc: "Developed the National Job Portal for the Bangladesh Computer Council, improving recruitment with AI-driven job recommendations. Built dynamic React.js features, integrated RESTful APIs, and enhanced efficiency with a CV Bank and administrative tools.",
+      desc: [
+        "Developed the National Job Portal for the Bangladesh Computer Council",
+        "Built dynamic React.js Developed dynamic React.js features, boosting engagement by 20%",
+        "Integrated RESTful APIs, enhancing data load efficiency by 25%",
+        "Created reusable components for reducing development time",
+        "Improved security with JWT authentication and Redux Toolkit",
+        "Built a CV Bank, increasing recruitment efficiency by 40%",
+        "Implemented Quota Configuration and Postponed Notices for transparency",
+        "Optimized load time with lazy loading, increasing engagement by 35%"
+      ],
       
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
@@ -178,8 +188,14 @@ export const navItems = [
       id: 2,
       title: "Software Engineer Intern",
       company: "Skoder Technologies",
+      link:"https://www.skoder.co/",
       date: "Nov 2022 - Jan 2023",
-      desc: "Conducted requirements analysis, led alpha testing for system improvement, and developed reports for stakeholder engagement and project enhancement.",
+      desc: [
+        "Contributed to the JU Automated Financial System, an automated financial solution for university faculty and staff",
+        "Conducted requirements analysis.",
+        "Led alpha testing for system improvement.",
+        "Developed reports for stakeholder engagement and project enhancement.",
+      ],
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     }
