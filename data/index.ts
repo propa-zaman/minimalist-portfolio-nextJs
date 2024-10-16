@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -107,98 +107,82 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Led and coordinated various social, cultural, and educational initiatives aimed at fostering unity among students from Bhairab studying at universities across Bangladesh. Organized events, promoted academic and creative activities, and strengthened community engagement through leadership and collaboration.",
+      name: "General Secretary",
+      img:"/usab.svg",
+      title: "The University Student Association, Bhairab (USAB)",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Contributed to the leading IT club at BUP, established in 2017, focused on developing students' IT skills. Created engaging graphics, including promotional banners and posters, to enhance visual appeal. Managed social media channels to boost brand visibility and engage audiences with compelling visual content.",
+      name: "Joint Secretary",
+      img:"/itc.svg",
+      title: "Bup InfoTech Club",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Designed and produced promotional materials, including banners and posters, to enhance visibility for WIE initiatives. Managed and maintained social media platforms to promote events, engage the community, and support the mission of empowering women in engineering and technology.",
+      name: "Design and Creativity Coordinator",
+      img:"/we.svg",
+      title: "IEEE BUP Student Branch WIE Affinity Group",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Served as Vice Chair of the IEEE BUP Student Branch, a subunit of IEEE under Region 10, dedicated to providing students with opportunities to enhance their skills and knowledge in computer science and engineering. Facilitated workshops, seminars, and events to foster professional development and encourage collaboration within the student community.",
+      name: "Vice Chair",
+      img:"/cs.svg",
+      title: "IEEE Computer Society BUP Student Branch ChapterIEEE",
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
+      name: "USAB",
+      img: "/usab.svg",
       nameImg: "/cloudName.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
+      name: "WE",
+      img: "/we.svg",
       nameImg: "/appName.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
+      name: "ITC",
+      img: "/itc.svg",
       nameImg: "/hostName.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
+      name: "CS",
+      img: "/cs.svg",
       nameImg: "/streamName.svg",
     },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
+
   ];
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Trainee Programmer",
+      company: "Synesis IT Ltd",
+      date: "Jan 2024 - Present",
+      desc: "Developed the National Job Portal for the Bangladesh Computer Council, improving recruitment with AI-driven job recommendations. Built dynamic React.js features, integrated RESTful APIs, and enhanced efficiency with a CV Bank and administrative tools.",
+      
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Software Engineer Intern",
+      company: "Skoder Technologies",
+      date: "Nov 2022 - Jan 2023",
+      desc: "Conducted requirements analysis, led alpha testing for system improvement, and developed reports for stakeholder engagement and project enhancement.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+    }
   ];
   
   export const socialMedia = [
