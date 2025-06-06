@@ -174,13 +174,30 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
+      title: "Software Engineer",
+      company: "Nagorik Technologies Ltd",
+      link: "https://nagorik.com.bd/",
+      date: "Dec 2024 - Present",
+      desc: [
+        "Led the design and development of responsive UIs for applications like QuizGiri, Romoni, and Admin Portals",
+        "Improved UI performance and introduced dynamic data fetching, boosting user engagement and satisfaction",
+        "Resolved Romonis payment issues by optimizing coupon logic, payment flows, and multi-method transactions",
+        "Refined API calls and backend fetching, improving leaderboard and quiz result performance by 40%",
+        "Collaborated with UX/product teams and integrated WebSocket for real-time updates",
+        "Reduced bug recurrence by 50% through critical bug fixes and system improvements"
+      ],
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    },
+    {
+      id: 2, 
       title: "Trainee Programmer",
       company: "Synesis IT Ltd",
-      link:"https://synesisit.com.bd/",
-      date: "Jan 2024 - Present",
+      link: "https://synesisit.com.bd/",
+      date: "Jan 2024 - Dec 2024",
       desc: [
         "Developed the National Job Portal for the Bangladesh Computer Council",
-        "Built dynamic React.js Developed dynamic React.js features, boosting engagement by 20%",
+        "Built dynamic React.js features, boosting engagement by 20%",
         "Integrated RESTful APIs, enhancing data load efficiency by 25%",
         "Created reusable components for reducing development time",
         "Improved security with JWT authentication and Redux Toolkit",
@@ -188,26 +205,11 @@ export const navItems = [
         "Implemented Quota Configuration and Postponed Notices for transparency",
         "Optimized load time with lazy loading, increasing engagement by 35%"
       ],
-      
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Software Engineer Intern",
-      company: "Skoder Technologies",
-      link:"https://www.skoder.co/",
-      date: "Nov 2022 - Jan 2023",
-      desc: [
-        "Contributed to the JU Automated Financial System, an automated financial solution for university faculty and staff",
-        "Conducted requirements analysis.",
-        "Led alpha testing for system improvement.",
-        "Developed reports for stakeholder engagement and project enhancement.",
-      ],
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
     }
   ];
+  
   
   export const socialMedia = [
     {
