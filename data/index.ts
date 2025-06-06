@@ -80,6 +80,22 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Romoni",
+      des: "Full-featured service marketplace connecting users with beauty, wellness, and home service professionals, offering seamless booking, secure payments, and personalized service experiences",
+      img: "/p7.svg",
+      iconLists: ["/next.svg", "/ts.svg", "/zustand.svg",  "/tail.svg"],
+      link: "https://romoni.com.bd/",
+    },
+    {
+      id: 3,
+      title: "You2Tune",
+      des: "Full-featured web app that enables users to seamlessly download YouTube videos in MP3 or MP4 format with fast conversion and a clean, user-friendly interface",
+      img: "/p8.svg",
+      iconLists: ["/re.svg", "/ex.svg","/tail.svg", "/js.svg", "/shdcn.svg"],
+      link: "https://you2tune.com/",
+    },
+    {
+      id: 4,
       title: "Movie Maven",
       des: "Responsive movie search app with infinite scrolling, dynamic search, detailed movie pages, and a watchlist with dark mode toggle for improved user experience",
       img: "/p5.svg",
@@ -87,7 +103,7 @@ export const navItems = [
       link: "https://movie-maven-three.vercel.app/",
     },
     {
-      id: 3,
+      id: 5,
       title: "Graphics School",
       des: "Full-featured web app with user and instructor enrollment, plus admin and instructor dashboards for class management",
       img: "/p1.svg",
@@ -95,37 +111,30 @@ export const navItems = [
       link: "https://graphics-school.web.app/",
     },
     {
-      id: 2,
-      title: "Movie Maven",
-      des: "Responsive movie search app with infinite scrolling, dynamic search, detailed movie pages, and a watchlist with dark mode toggle for improved user experience.",
-      img: "/p5.svg",
-      iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
-      link: "https://movie-maven-three.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Fairy Tales",
-      des: "Dynamic toy shop website for managing toys, with user authentication for adding, viewing, and tracking toys",
-      img: "/p2.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fb.svg", "/ex.svg", "/mg.svg"],
-      link: "https://fairy-tales-fad25.web.app/",
-    },
-    {
-      id: 4,
-      title: "La Cuisine",
-      des: "A food-focused web application with features like recipe viewing, blog posts, and user authentication",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fb.svg", "/ex.svg", "/mg.svg"],
-      link: "https://la-cuisine-537fb.web.app/",
-    },
-    {
-      id: 5,
+      id: 6,
       title: "National Job Portal",
       des: "Centralized platform connecting job seekers with government employers, enhancing recruitment with AI-driven job recommendations",
       img: "/p4.svg",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/rdx.svg"],
       link: "https://jobs.gov.bd/",
     },
+    // {
+    //   id: 5,
+    //   title: "Fairy Tales",
+    //   des: "Dynamic toy shop website for managing toys, with user authentication for adding, viewing, and tracking toys",
+    //   img: "/p2.svg",
+    //   iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fb.svg", "/ex.svg", "/mg.svg"],
+    //   link: "https://fairy-tales-fad25.web.app/",
+    // },
+    // {
+    //   id: 6,
+    //   title: "La Cuisine",
+    //   des: "A food-focused web application with features like recipe viewing, blog posts, and user authentication",
+    //   img: "/p3.svg",
+    //   iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fb.svg", "/ex.svg", "/mg.svg"],
+    //   link: "https://la-cuisine-537fb.web.app/",
+    // },
+   
   ];
   
   export const testimonials = [
