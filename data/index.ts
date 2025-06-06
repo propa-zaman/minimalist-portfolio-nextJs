@@ -72,6 +72,22 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "QuizGiri",
+      des: "Full-featured web app with quiz and tournament play, offering real-time gameplay, user participation, and dynamic leaderboard tracking",
+      img: "/p6.svg",
+      iconLists: ["/next.svg", "/ts.svg", "/zustand.svg",  "/tail.svg"],
+      link: "https://demo.atm-labs.com/quizhub",
+    },
+    {
+      id: 2,
+      title: "Movie Maven",
+      des: "Responsive movie search app with infinite scrolling, dynamic search, detailed movie pages, and a watchlist with dark mode toggle for improved user experience",
+      img: "/p5.svg",
+      iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
+      link: "https://movie-maven-three.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Graphics School",
       des: "Full-featured web app with user and instructor enrollment, plus admin and instructor dashboards for class management",
       img: "/p1.svg",
@@ -108,7 +124,7 @@ export const navItems = [
       des: "Centralized platform connecting job seekers with government employers, enhancing recruitment with AI-driven job recommendations",
       img: "/p4.svg",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/rdx.svg"],
-      link: "https://test.jobs.gov.bd/",
+      link: "https://jobs.gov.bd/",
     },
   ];
   
